@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Шифр ADFGVX</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./fonts/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./fonts/favicon.ico" type="image/x-icon">
+</head>
+<body>
+<div class="cipherWindow">
+    <h1>Шифр ADFGVX:</h1>
+    <table id="matrixADFGVX" class="tdText"></table>
+    <div>
+        <button class="generate-button">сгенерировать матрицу</button>
+    </div>
+    <div>
+        <input class="key" type="text" placeholder="Введите ключ.."/>
+        <p>используйте только русские буквы без повторов и без пробелов</p>
+    </div>
+    <textarea class="text" placeholder="Введите текст.."></textarea>
+    <div class="btn-crypt">
+        <button class="decrypt-button">шифровать</button>
+        <button class="encrypt-button">дешифровать</button>
+    </div>
+    <h2>Результат:</h2>
+    <div class="result-text"></div>
+    <button class="clear-button">очистить</button>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
